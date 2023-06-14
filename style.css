@@ -1,0 +1,89 @@
+:root {
+    --header-color: #012D63;
+    --footer-color: #021635;
+    --text-color-1: #C7C7C7;
+    --text-color-2: #959595;
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    font-family: "Roboto";
+    background-color: var(--header-color);
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link-1 {
+    margin-left: 168px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+
+.nav-link-2 {
+    margin-left: 152px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.nav-link-3 {
+    margin-left: 29px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.nav-link-4 {
+    margin-left: 29px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.nav-link-5 {
+    margin-left: 29px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.nav-link-6 {
+    margin-left: 29px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.nav-link-7 {
+    margin-left: 29px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.nav-link-8 {
+    margin-left: 73px;
+    margin-right: 165px;
+    margin-top: 30px;
+    margin-bottom: 33px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+
+.lang-button {
+    background-color: var(--header-color);
+    border-style: none;
+    color: #ffffff;
+}
+
