@@ -87,3 +87,57 @@ body {
     color: #ffffff;
 }
 
+.hero-sec {
+    display: flex;
+    background-image: url(./images/Group\ 37\ \(1\)\ 1heroimage.png);
+    height: 855px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.sec1 {
+    list-style: none;
+}
+
+.sec1-line {
+    margin-left: 170px;
+}
+
+.sec2-line {
+    margin-left: 195px;
+    font-family: PT serif;
+}
+
+.sec3-line {
+    margin-left: 156px;
+    margin-top: 5px;
+    font-family: Playfair Display;
+}
+
+.sec4-line {
+    margin-left: 164px;
+    font-family: Playfair Display;
+}
+
+.sec5-line {
+    margin-left: 164px;
+    margin-top: 12px;
+    font-family: Roboto;
+}
+
+.sec6-line {
+    margin-left: 164px;
+    margin-top: 41px;
+    font-family: Roboto;
+}
+
+.nike-buy {
+    background-color: #8E32C6;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 61px;
+    padding-right: 61px;
+    color: #ffffff;
+}
