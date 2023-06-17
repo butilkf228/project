@@ -1,143 +1,196 @@
 :root {
-    --header-color: #012D63;
-    --footer-color: #021635;
-    --text-color-1: #C7C7C7;
-    --text-color-2: #959595;
+  --header-color: #012d63;
+  --footer-color: #021635;
+  --text-color-1: #c7c7c7;
+  --text-color-2: #959595;
 }
 
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
 header {
-    font-family: "Roboto";
-    background-color: var(--header-color);
+  font-family: "Roboto";
+  background-color: var(--header-color);
 }
 
 .header-nav {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-link {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .nav-link-1 {
-    margin-left: 168px;
-    margin-top: 16px;
-    margin-bottom: 17px;
+  margin-left: 60px;
+  margin-top: 16px;
+  margin-bottom: 17px;
 }
 
 .nav-link-2 {
-    margin-left: 152px;
-    margin-bottom: 33px;
-    margin-top: 30px;
+  margin-left: 152px;
+  margin-bottom: 33px;
+  margin-top: 30px;
 }
 
 .nav-link-3 {
-    margin-left: 29px;
-    margin-bottom: 33px;
-    margin-top: 30px;
+  margin-left: 29px;
+  margin-bottom: 33px;
+  margin-top: 30px;
 }
 
 .nav-link-4 {
-    margin-left: 29px;
-    margin-bottom: 33px;
-    margin-top: 30px;
+  margin-left: 29px;
+  margin-bottom: 33px;
+  margin-top: 30px;
 }
 
 .nav-link-5 {
-    margin-left: 29px;
-    margin-bottom: 33px;
-    margin-top: 30px;
+  margin-left: 29px;
+  margin-bottom: 33px;
+  margin-top: 30px;
 }
 
 .nav-link-6 {
-    margin-left: 29px;
-    margin-bottom: 33px;
-    margin-top: 30px;
+  margin-left: 29px;
+  margin-bottom: 33px;
+  margin-top: 30px;
 }
 
 .nav-link-7 {
-    margin-left: 29px;
-    margin-bottom: 33px;
-    margin-top: 30px;
-}
-
-.nav-link-8 {
-    margin-left: 73px;
-    margin-right: 165px;
-    margin-top: 30px;
-    margin-bottom: 33px;
+  margin-left: 29px;
+  margin-bottom: 33px;
+  margin-top: 30px;
 }
 
 body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
 }
 
 .lang-button {
-    background-color: var(--header-color);
-    border-style: none;
-    color: #ffffff;
+  background-color: var(--header-color);
+  border-style: none;
+  color: #ffffff;
+  margin-left: 73px;
 }
 
 .hero-sec {
-    display: flex;
-    background-image: url(./images/Group\ 37\ \(1\)\ 1heroimage.png);
-    height: 855px;
-    color: #ffffff;
-    align-items: center;
+  display: flex;
+  background-image: url(./images/Group\ 37\ \(1\)\ 1heroimage.png);
+  height: 855px;
+  color: #ffffff;
+  align-items: center;
 }
 
 .sec1 {
-    list-style: none;
-}
-
-.sec1-line {
-    margin-left: 170px;
-}
-
-.sec2-line {
-    margin-left: 195px;
-    font-family: PT serif;
-}
-
-.sec3-line {
-    margin-left: 156px;
-    margin-top: 5px;
-    font-family: Playfair Display;
-}
-
-.sec4-line {
-    margin-left: 164px;
-    font-family: Playfair Display;
-}
-
-.sec5-line {
-    margin-left: 164px;
-    margin-top: 12px;
-    font-family: Roboto;
-}
-
-.sec6-line {
-    margin-left: 164px;
-    margin-top: 41px;
-    font-family: Roboto;
+  list-style: none;
 }
 
 .nike-buy {
-    background-color: #8E32C6;
-    border-style: solid;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 19px;
-    padding-left: 61px;
-    padding-right: 61px;
-    color: #ffffff;
+  background-color: #8e32c6;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  padding-left: 61px;
+  padding-right: 61px;
+  color: #ffffff;
+  width: 254px;
+  height: 67px;
+  left: 165px;
+  top: 698px;
+  margin-left: 164px;
+  margin-top: 41px;
+}
+
+.text-under-nike-icon {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  margin-left: 195px;
+}
+
+.main-hero-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 192px;
+  margin-left: 156px;
+}
+
+.text-under-main-hero-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 96px;
+  margin-left: 164px;
+}
+
+.text-under-all {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 164px;
+  margin-top: 12px;
+}
+
+.image-hero-nike {
+  margin-left: 200px;
+}
+
+.container-sec2 {
+  height: 606px;
+  background-image: url(./images/Group\ 8\ 1sec2image.png);
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-2,
+.item-3 {
+  margin-left: 145px;
+}
+
+.border-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #8e32c6;
+  width: 1110px;
+  height: 396px;
+  left: 165px;
+  top: 1053px;
+}
+
+.item-4-text {
+  margin-left: 50px;
+}
+
+.item-5-text {
+  margin-left: 60px;
+}
+
+.item-3-text {
+  margin-left: 60px;
 }
