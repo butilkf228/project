@@ -278,6 +278,7 @@ body {
 
 .cards {
   display: flex;
+  margin-left: 40px;
 }
 
 .third-sec {
@@ -290,7 +291,6 @@ body {
   height: 455px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .card-1-person,
@@ -302,5 +302,31 @@ body {
 .card-2,
 .card-3 {
   margin-left: 93px;
+}
+
+.container-sec3 {
+  display: flex;
+}
+
+.left {
+  height: 455px;
+  display: flex;
+  align-items: end;
+}
+
+.normal-row-1,
+.normal-row-2,
+.normal-row-3 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 29px;
+}
+
+.normal-1,
+.normal-2,
+.normal-3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
 }
 
