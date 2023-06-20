@@ -330,3 +330,74 @@ body {
   margin-left: 5px;
 }
 
+.fourth-sec {
+  height: 509px;
+  background-image: url(./images/Group\ 2\ 1sec3image.png);
+  color: #ffffff;
+}
+
+.orderr {
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.order-text {
+  margin-top: 21px;
+  margin-bottom: 33px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.in-1,
+.in-2,
+.in-3,
+.in-4 {
+  margin-bottom: 19px;
+  border-radius: 50px;
+}
+
+.order-bot {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 49px;
+  padding-right: 49px;
+  background: #8E32C6;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.in-1 {
+  height: 60px;
+  width: 690px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  padding-left: 25px;
+}
+
+.in-2,
+.in-3,
+.in-4 {
+  height: 50px;
+  width: 580px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 24px;
+}
+
