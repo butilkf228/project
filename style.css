@@ -278,7 +278,6 @@ body {
 
 .cards {
   display: flex;
-  margin-left: 40px;
 }
 
 .third-sec {
@@ -306,6 +305,7 @@ body {
 
 .container-sec3 {
   display: flex;
+  margin-left: 38px;
 }
 
 .left {
@@ -406,12 +406,13 @@ footer {
   height: 292px;
   background-color: #021635;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 
 .line-1 {
   display: flex;
   padding-top: 44px;
-  margin-left: 164px;
   margin-bottom: 10px;
   font-family: Roboto;
   font-size: 24px;
@@ -433,7 +434,6 @@ footer {
 
 .line-2 {
   display: flex;
-  margin-left: 164px;
   margin-bottom: 10px;
   font-family: Roboto;
   font-size: 24px;
@@ -450,7 +450,6 @@ footer {
 .line-3 {
   display: flex;
   margin-bottom: 15px;
-  margin-left: 164px;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
@@ -470,7 +469,6 @@ footer {
 .text-footer {
   display: flex;
   flex-direction: column;
-  margin-left: 165px;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
@@ -500,3 +498,8 @@ footer {
   letter-spacing: 0em;
   text-align: left;
 }
+
+.border-row {
+  list-style: none;
+}
+
